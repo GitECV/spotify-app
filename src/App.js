@@ -4,7 +4,7 @@ import axios from 'axios';
 
 function App() {
     const CLIENT_ID = "2f1466b032bd43ba98236f5157ed4b1e"
-    const REDIRECT_URI = "https://spotify-d3ng1m67k-gitecv.vercel.app/"
+    const REDIRECT_URI = "http://localhost:3000"
     const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
     const RESPONSE_TYPE = "token"
     const SCOPES = "user-top-read"
